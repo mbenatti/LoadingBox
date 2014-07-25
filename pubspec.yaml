@@ -1,0 +1,4 @@
+name: LoadingBox
+description: A simple loading box
+dependencies:
+  browser: any
