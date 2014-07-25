@@ -22,6 +22,10 @@ class BoxLoading {
     _blackOverlay = new Element.tag("div")
    
   {
+    
+    _content.nodes.add(getStylesheet());
+    _blackOverlay.nodes.add(getStylesheet());
+    
     //constructor body
     _content.id = "modalContent";
     _content.classes.add("white_content");  //set the class for CSS
@@ -45,6 +49,14 @@ class BoxLoading {
   show() {
     document.body.nodes.add(_content);
     document.body.nodes.add(_blackOverlay);
+  }
+  
+  getStylesheet() {
+    LinkElement styleSheet = new Element.tag("link");
+    styleSheet.rel = "stylesheet";
+    styleSheet.type="text/css";
+    styleSheet.href="loadingbox.css";
+    return styleSheet;
   }
 
 }
