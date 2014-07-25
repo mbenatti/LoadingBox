@@ -1,4 +1,4 @@
-library DartSimpleDialogBox;
+library loading_box;
 
 import 'dart:html';
 
