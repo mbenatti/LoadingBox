@@ -1,6 +1,6 @@
 name: LoadingBox
-version: 0.1.2
-author: Marcos Benatti Lauer
+version: 0.1.3
+author: Marcos Benatti Lauer <benatti77@gmail.com>
 description: A simple loading box
 homepage: https://github.com/mbenatti/LoadingBox
 dependencies:
