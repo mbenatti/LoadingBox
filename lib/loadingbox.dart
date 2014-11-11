@@ -13,8 +13,9 @@ class BoxLoading {
   final DivElement _content;
   final DivElement _blackOverlay;
 
+
   //Constructor
-  BoxLoading(String message) :
+  BoxLoading([String message]) :
     //constructor pre-init
     _content = new Element.tag("div"),
     _blackOverlay = new Element.tag("div")
