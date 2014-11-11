@@ -9,7 +9,7 @@ How to use:
 ```sh
 void main() {
   //Create Box loading
-  BoxLoading boxLoading = new BoxLoading();
+  LoadingBox boxLoading = new LoadingBox();
   //Show Loading
   boxLoading.show();
   //hideLoading

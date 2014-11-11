@@ -9,13 +9,13 @@ void main() {
 /**
 * Our modal dialog class
 */
-class BoxLoading {
+class LoadingBox {
   final DivElement _content;
   final DivElement _blackOverlay;
 
 
   //Constructor
-  BoxLoading([String message]) :
+  LoadingBox([String message]) :
     //constructor pre-init
     _content = new Element.tag("div"),
     _blackOverlay = new Element.tag("div")
