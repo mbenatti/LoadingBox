@@ -1,7 +1,7 @@
 name: loading_box
-version: 0.2.0
+version: 0.2.1
 author: Marcos Benatti Lauer <benatti77@gmail.com>
 description: A simple loading box
 homepage: https://github.com/mbenatti/LoadingBox
 dependencies:
-  browser:  ">=0.10.0+2 <0.11.0"
+  browser: '>=0.10.0+2 <0.11.0'
