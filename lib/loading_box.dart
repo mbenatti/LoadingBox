@@ -15,26 +15,19 @@ class LoadingBox {
 
 
   //Constructor
-  LoadingBox([String message]) :
+  LoadingBox() :
     //constructor pre-init
     _content = new Element.tag("div"),
     _blackOverlay = new Element.tag("div")
    
   {
-    
-
-    
+        
     _content.nodes.add(getStylesheetContent());
     _blackOverlay.nodes.add(getStylesheetOverlay());
     
     //constructor body
     _content.id = "modalContent";
     _blackOverlay.id = "modalOverlay";
-
-    //Our message will go inside this span
-    SpanElement span = new Element.tag("span");
-    span.innerHtml = message;
-    _content.nodes.add(span);
 
   }
 
